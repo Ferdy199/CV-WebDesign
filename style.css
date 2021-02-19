@@ -1,0 +1,129 @@
+body {
+    font-family: monospace;
+    overflow-x: hidden;
+    color: white;
+    background-color: #505962;
+}
+
+/*--- Navigasi ---*/
+.navbar {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    background: rgb(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+    height: 3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(126, 245, 205);
+}
+
+/*--- Halaman Depan ---*/
+.row,
+.container-fluid {
+    margin-left: 17% !important;
+    margin-right: -110px !important;
+    padding-top: 4rem;
+}
+
+.caption {
+    color: white;
+    padding-top: 4rem;
+    text-transform: uppercase;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+blockquote {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.btn {
+    margin-left: 41%;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.btn-group-lg>.btn,
+.btn-lg:hover {
+    background-color: rgb(126, 245, 205);
+    color: white;
+}
+
+/*--- Footer ---*/
+footer {
+    background-color: #24272a86;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+
+strong {
+    margin-left: -20rem;
+    font-size: 1.5rem;
+}
+
+footer a {
+    color: white;
+    margin-left: -10.3rem;
+    margin-right: 10.3rem;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+footer svg.svg-inline--fa:hover {
+    color: rgb(126, 245, 205);
+}
+
+/*--- Responsive ---*/
+@media (max-width: 767px) {
+    .caption h1 {
+        font-size: 2rem;
+    }
+
+    .row {
+        padding-top: 1.3rem;
+    }
+
+    blockquote {
+        padding-top: 2rem;
+        margin-left: -70px;
+        margin-right: 220px;
+        font-size: .8rem;
+    }
+
+    .profile img {
+        max-width: 50%;
+        display: block;
+        margin-left: -55px;
+    }
+
+    .btn {
+        margin-left: 30%;
+        margin-top: 2rem;
+    }
+
+    strong {
+        margin-left: -33%;
+    }
+
+    footer svg.svg-inline--fa {
+        margin-left: 17%;
+        margin-right: -17%;
+    }
+
+}

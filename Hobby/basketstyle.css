@@ -1,0 +1,94 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: cursive;
+ }
+
+ /*--- Navigasi ---*/
+ .navbar {
+     text-transform: uppercase;
+     font-size: 1.3rem;
+     letter-spacing: .1rem;
+     background: rgb(0, 0, 0, 0.6) !important;
+ }
+
+ .navbar-brand img {
+     height: 3rem;
+ }
+
+ .navbar-dark .navbar-nav .nav-link {
+     color: white;
+ }
+
+ .navbar-dark .navbar-nav .nav-link:active,
+ .navbar-dark .navbar-nav .nav-link:hover {
+     color: rgb(126, 245, 205);
+ }
+
+ /*--- Homepage ---*/
+ .biodata {
+     margin-bottom: 600px;
+ }
+
+ .home h1 {
+     text-align: center;
+     margin-top: 30px;
+     margin-left: 40px;
+ }
+
+ .profile img {
+     width: 200px;
+     padding-top: 4rem;
+     padding-left: 1rem;
+     float: left;
+     background-color: white;
+ }
+
+ .basket .bio {
+     float: right;
+     margin-top: -160px;
+     margin-left: 250px;
+     margin-right: 500px;
+ }
+
+ .basket {
+     margin-left: 80px;
+ }
+
+ .game {
+     margin-right: 90px;
+ }
+
+ .game img {
+     float: right;
+     padding-right: 2rem;
+ }
+
+ .game .bio {
+     float: left;
+     margin-top: -140px;
+     margin-left: 500px;
+     margin-right: 250px;
+ }
+
+ /*--- Responsive ---*/
+ @media (max-width:767px) {
+     .profile img {
+         margin-left: 65px;
+     }
+
+     .basket .bio {
+         margin: auto;
+     }
+
+     .game .bio {
+         margin: auto;
+         margin-left: 90px;
+         margin-right: -100px;
+         margin-top: 20px;
+         margin-bottom: 80px;
+     }
+ }
